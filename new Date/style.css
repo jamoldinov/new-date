@@ -1,0 +1,130 @@
+ @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+body {
+    /* font-family: 'Voltaire', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cadetblue;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hidden {
+    display: none;
+}
+
+.section-hero {
+    background-color: darkcyan;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+    
+}
+.hero-item {
+    display: flex;
+    gap: 25px;
+
+
+}
+p {
+    font-size: 20px;
+
+}
+
+
+.section-modal {
+    background-color: darkslategray;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+    text-align: center;
+   
+margin-top: 200px;
+}
+.section-modal:hover {
+    opacity: 0.9;
+}
+.hr {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    z-index: 100;
+    color: #fff;
+}
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.user-name{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dashed darkcyan;
+    width: 300px;
+    color: inherit;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user-date {
+    padding: 10px;
+    width: 300px;
+    color: inherit;  
+    border-radius: 10px;
+    border: 1px dashed darkcyan;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sumbit-btn {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: dodgerblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 10px 15px;
+}
+.sumbit-btn:hover {
+    opacity: 0.5;
+    color: #fff;
+}
+.sumbit-btn:active {
+    color: #fff;
+    color: darkgray;
+}
